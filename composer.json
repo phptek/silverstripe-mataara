@@ -5,6 +5,8 @@
   "type": "silverstripe-vendormodule",
   "keywords": [
     "silverstripe",
+    "environment",
+    "matara",
     "mataara",
     "client"
   ],
