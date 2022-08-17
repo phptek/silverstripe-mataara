@@ -22,6 +22,7 @@
   },
   "require": {
     "php": "^7|^8",
+    "guzzlehttp/guzzle": "^7",
     "silverstripe/cms": "^4",
     "symbiote/silverstripe-queuedjobs": "^4"
   },
