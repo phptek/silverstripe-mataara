@@ -1,5 +1,7 @@
 # Silverstripe Mataara
 
+**NOTICE** August 2022 - this project is a WIP and therefore _incomplete_. Use/Modify at your own risk!
+
 This module allows your Silverstripe applicaton to push data about the app/site into a [Mataara](https://mataara.readthedocs.io/) instance. It's a bit like [Sentry](https://sentry.io) in this respect: Anonymously and securely push certain application-specific data to a centralised server to which only authorised users are permitted access to view.
 
 Mataara's intended use-case is around displaying core and module CVE's at-a-glance alongside some other, seemingly arbitrary environment information. Mataara appears to be very Drupal centric, but several new issues have been raised recently in its issue-tracker to address this.
