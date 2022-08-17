@@ -1,0 +1,31 @@
+{
+  "name": "phptek/silverstripe-mataara",
+  "description": "A Mataara client for securely sending metadata to a Mataara Server.",
+  "license": "BSD-3-Clause",
+  "type": "silverstripe-vendormodule",
+  "keywords": [
+    "silverstripe",
+    "mataara",
+    "client"
+  ],
+  "authors": [
+    {
+      "name": "Russell Michell",
+      "email": "russ@theruss.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpTek\\Mataara\\": "src/",
+      "PhpTek\\Mataara\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7|^8",
+    "silverstripe/cms": "^4",
+    "symbiote/silverstripe-queuedjobs": "^4"
+  },
+  "extra": {
+    "installer-name": "mataara"
+  }
+}

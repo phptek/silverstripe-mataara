@@ -1,0 +1,167 @@
+{
+  "Databases": {
+    "default": {
+      "default": {
+        "Host": "127.0.0.1",
+        "Database": "vagrant",
+        "Driver": "mysql"
+      }
+    }
+  },
+  "ServerHostname": "archclient",
+  "DrupalVersion": "7.51",
+  "Environment": {
+    "Name": "production",
+    "Label": "Production"
+  },
+  "ReportGenerated": 1478730113,
+  "ServerName": "http:\/\/archclient.vagrant-local\/",
+  "ReportExpiry": 1478731913,
+  "SiteRoot": "\/var\/www\/archclient",
+  "SiteSlogan": false,
+  "Nodes": {
+    "Revisions": "0",
+    "Nodes": "0"
+  },
+  "DirectoryHash": "3c4926153b2a5ffbceec2a464033de30",
+  "Themes": [
+    {
+      "Version": "7.51",
+      "Theme": "bartik",
+      "Url": "",
+      "Description": "A flexible, recolorable theme with many regions.",
+      "Name": "Bartik",
+      "Project": ""
+    }
+  ],
+  "AdminRole": {
+    "RoleUsers": [
+      
+    ],
+    "RoleID": 0,
+    "RoleName": ""
+  },
+  "Modules": [
+    {
+      "Package": "",
+      "Description": "Sets the environment variable for a site instance",
+      "Url": "",
+      "Version": "7.x-1.0",
+      "Name": "Environment",
+      "Module": "environment",
+      "Project": "environment"
+    },
+    {
+      "Package": "Core",
+      "Description": "Controls the visual building blocks a page is constructed with. Blocks are boxes of content rendered into an area, or region, of a web page.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Block",
+      "Module": "block",
+      "Project": ""
+    },
+    {
+      "Package": "Archimedes",
+      "Description": "Client module for reporting to a Mataara Server",
+      "Url": "",
+      "Version": "7.x-dev",
+      "Name": "Mataara Client",
+      "Module": "archimedes_client",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Logs and records system events to the database.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Database logging",
+      "Module": "dblog",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Field API to add fields to entities like nodes and users.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Field",
+      "Module": "field",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Stores field data in an SQL database.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Field SQL storage",
+      "Module": "field_sql_storage",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Filters content in preparation for display.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Filter",
+      "Module": "filter",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Allows content to be submitted to the site and displayed on pages.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Node",
+      "Module": "node",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Handles general site configuration for administrators.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "System",
+      "Module": "system",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Defines simple text field types.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Text",
+      "Module": "text",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Checks for available updates, and can securely install or update modules and themes via a web interface.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Update manager",
+      "Module": "update",
+      "Project": ""
+    },
+    {
+      "Package": "Core",
+      "Description": "Manages the user registration and login system.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "User",
+      "Module": "user",
+      "Project": ""
+    },
+    {
+      "Package": "",
+      "Description": "Start with only a few modules enabled.",
+      "Url": "",
+      "Version": "7.51-dev",
+      "Name": "Minimal",
+      "Module": "minimal",
+      "Project": ""
+    }
+  ],
+  "SiteTitle": "Archimedes Client",
+  "SiteKey": "d2e1e62ce90c3b4f2a6602209eb6ac29",
+  "Users": "2",
+  "ReportType": "drupal7"
+}
