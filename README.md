@@ -53,6 +53,7 @@ PhpTek\Mataara\Report\AbstractReport:
 * Ascertain exactly how the `ReportType` report-field works. What exactly does it drive within Mataara? It's confusing that the default
   report format appears to be fixed, but that this field _appears_ to determine how reports are processed. Additonally, there is future work to
   version the JSON so this module will support this out-of-the-box in anticipation of this.
+* How does Mataara inspect modules for CVEs? 
 
 # See Also
 
